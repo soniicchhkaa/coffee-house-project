@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House | Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">Coffee House</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </header>
+
+    <section class="contact">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <div class="password-box">
+          <input type="password" id="password" placeholder="Password" />
+          <span class="toggle-password" id="togglePassword">👁️</span>
+        </div>
+        <textarea id="message" placeholder="Message" required></textarea>
+        <label class="show-password"
+          ><input type="checkbox" id="showPass" /> Show Password</label
+        >
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn">Haven't been there? Register</button>
+      </form>
+    </section>
+
+    <footer><p>© 2026 Coffee House</p></footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

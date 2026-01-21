@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Espresso",
+    "price": "$2.50",
+    "description": "Our signature dark roast, freshly brewed to deliver a rich aroma and a bold, energizing taste.",
+    "image": "assets/images/esspresso.jpg"
+  },
+  {
+    "name": "Cappuccino",
+    "price": "$3.20",
+    "description": "A perfect balance of espresso, steamed milk, and foam. A creamy classic for true coffee lovers.",
+    "image": "assets/images/cappuccino.jpg"
+  },
+  {
+    "name": "Caramel Latte",
+    "price": "$3.80",
+    "description": "A smooth espresso blended with caramel syrup and warm milk — sweet, silky, and unforgettable.",
+    "image": "assets/images/latte.jpg"
+  },
+  {
+    "name": " Mocha",
+    "price": "$4.00",
+    "description": "Refreshing and indulgent — cold brewed coffee with chocolate and a touch of whipped cream.",
+    "image": "assets/images/mocha.jpg"
+  },
+  {
+    "name": "Vanilla Cheesecake",
+    "price": "$4.50",
+    "description": "A classic New York–style cheesecake topped with a soft vanilla glaze and crunchy biscuit base.",
+    "image": "assets/images/dessert2.jpg"
+  },
+  {
+    "name": "Chocolate Brownie",
+    "price": "$3.50",
+    "description": "Rich, moist chocolate brownie with a crispy crust and melted chocolate chunks inside.",
+    "image": "assets/images/dessert1.jpg"
+  }
+]
