@@ -1,4 +1,3 @@
-// ==== BURGER MENU (Animated) ====
 const burger = document.querySelector(".burger");
 const navMenu = document.querySelector(".nav ul");
 
@@ -7,8 +6,7 @@ if (burger && navMenu) {
     burger.classList.toggle("active");
     navMenu.classList.toggle("show");
   });
-
-  // OPTIONAL: close menu when clicking a link
+  
   document.querySelectorAll(".nav a").forEach((link) =>
     link.addEventListener("click", () => {
       navMenu.classList.remove("show");
@@ -17,7 +15,6 @@ if (burger && navMenu) {
   );
 }
 
-// ==== HEADER BACKGROUND CHANGE ====
 const header = document.querySelector("header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
@@ -27,7 +24,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// ==== SCROLL TO TOP ====
+
 const scrollBtn = document.getElementById("scrollTop");
 if (scrollBtn) {
   window.addEventListener("scroll", () => {
@@ -42,7 +39,7 @@ if (scrollBtn) {
   });
 }
 
-// ==== COOKIES ====
+
 const cookieBar = document.querySelector(".cookie");
 const acceptBtn = document.getElementById("acceptCookies");
 
@@ -59,7 +56,7 @@ window.addEventListener("load", () => {
   }
 });
 
-// ==== FETCH MENU ITEMS ====
+
 const menuContainer = document.getElementById("menu-container");
 if (menuContainer) {
   fetch("data/products.json")
@@ -80,7 +77,7 @@ if (menuContainer) {
     .catch((err) => console.error("Error loading menu:", err));
 }
 
-// ==== FORM VALIDATION ====
+
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
   const nameInput = document.getElementById("name");
@@ -144,7 +141,7 @@ loginForm.addEventListener("submit", (e) => {
   const password = document.getElementById("password").value;
   const remember = document.getElementById("rememberMe").checked;
 
-  // Simple hardcoded credentials
+  
   const correctUsername = "admin";
   const correctPassword = "1234";
 
@@ -158,8 +155,9 @@ loginForm.addEventListener("submit", (e) => {
     }
 
     alert("Login successful!");
-    // აქ შეგიძლია გვერდი გადამისამართო, ან უბრალოდ dashboard content აჩვენო
+  
   } else {
     alert("Invalid username or password");
   }
 });
+
